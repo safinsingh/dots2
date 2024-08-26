@@ -1,0 +1,11 @@
+[window.padding]
+x = 20
+y = 20
+
+[colors.primary]
+background = "#222222"
+foreground = "#ffffff"
+
+[font]
+normal = { family = "SFMono Nerd Font Mono", style = "Regular" }
+size = 7
