@@ -1,0 +1,9 @@
+#!/bin/sh -e
+
+selection=$(hacksaw -f "-i %i -g %g")
+
+if [[ $1 == save ]]; then
+	shotgun $selection ~/screenshots/$(date +"%m-%d-%Y_%H:%M:%S".png)
+else
+	shotgun $selection - | xclip -t 'image/png' -selection clipboard
+fi

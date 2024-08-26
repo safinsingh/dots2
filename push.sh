@@ -8,6 +8,8 @@ for path in .xinitrc .zshrc .zshenv .gitconfig; do
     cp -r ~/$path ./home/
 done
 
+cp -r ~/scripts .
+
 git submodule update --init --recursive
 git add .
 read -p "commitmsg: " msg
