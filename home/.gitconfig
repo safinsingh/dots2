@@ -1,0 +1,7 @@
+[user]
+	name = Safin Singh
+	email = safin.singh@gmail.com
+[protocol "file"]
+	allow = always
+[credential]
+	helper = /usr/share/git/credential/libsecret/git-credential-libsecret
